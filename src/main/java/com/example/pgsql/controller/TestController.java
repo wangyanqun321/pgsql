@@ -16,6 +16,7 @@ public class TestController {
 
     @GetMapping
     public Stu get(int id){
+        System.out.println("test");
         return stuMapper.getStu(id);
     }
 }
